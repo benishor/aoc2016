@@ -128,7 +128,7 @@ namespace aoc {
     template<typename T>
     std::vector<T> csv_elements_from_stream(std::istream& in) {
         std::vector<T> elements;
-        long i;
+        T i;
         char comma;
         while (in >> i) {
             elements.push_back(i);
