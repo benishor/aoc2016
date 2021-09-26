@@ -1,4 +1,5 @@
 #include "solution.h"
+#include <unordered_map>
 
 struct room {
     std::string name;
